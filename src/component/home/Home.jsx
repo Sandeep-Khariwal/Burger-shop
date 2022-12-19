@@ -34,7 +34,7 @@ const Home = () => {
         <motion.h1 {...options}>Fast Food Shop</motion.h1>
         <motion.p {...options}
         transition={
-          {delay:0.3}
+          {delay:0.2}
         }
         >order your fast food</motion.p>
       </div>
@@ -42,7 +42,7 @@ const Home = () => {
       <motion.a href='#menu'
       initial={{y:"-100%" , opacity:"0"} } whileInView={{y:"0" , opacity:"1"}}
       transition={
-        {delay:0.6}
+        {delay:0.3}
       }
       >Check menu</motion.a>
     </div>
