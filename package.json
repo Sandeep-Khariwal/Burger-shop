@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "homepage": "https://Sandeep-Khariwal.github.io/Burger-shop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +12,7 @@
     "chart.js": "^3.9.1",
     "country-state-city": "^3.1.2",
     "framer-motion": "^7.3.6",
+    "gh-pages": "^4.0.0",
     "protected-route-react": "^1.0.1",
     "react": "^18.2.0",
     "react-chartjs-2": "^4.3.1",
@@ -24,6 +26,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
